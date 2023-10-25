@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+  }
+
+.logo{
+    height: 120px;
+    margin-left: 15px;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+body{
+    font-family: 'Space Mono', monospace;    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    font-size: 1.1em;
+}
+
+.onglet{
+    display: flex;
+    gap: 90px;
+    margin-right: 25px;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+.photo{
+    min-height: 450px; 
+    margin: none;
+    background-image: url(../pictures/photothe.jpg);
+    opacity: 0.87;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border-top: 1px solid gray;
+    box-shadow: 0px 0px 3px 0px;
+
+}
+
+.intro{
+    margin: 90px;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    text-align: justify;
+    font-family: 'Space Mono', monospace;    
+}
+
+em{
+    color: #FFD700;
+}
+
+h1{
+    font-family: 'Space Mono', monospace;    
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 0px 0px 1px;
+}
+
+.photo1{
+    height: 220px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.photo1 img{
+    box-shadow: 0px 0px 3px 0px;
+}
+
+.photo2{
+    height: 220px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.photo2 img{
+    box-shadow: 0px 0px 3px 0px;
+}
+
+.intro2{
+    margin: 90px;
+    margin-bottom: 60px;
+    margin-top: 90px;
+    text-align: justify;
+    font-family: 'Space Mono', monospace;    
+}
+
+.agri{
+    height: 500px;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 0px 3px 0px;
+    
+}
+
+.logo2{
+    width: 50px;
+    margin-left: 30px ;
+}
+
+footer{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reseaux{
+    margin-right: 30px;
+    gap: 400px;
+    
+}
+
+.safetea2{
+    width: 80px;
+}

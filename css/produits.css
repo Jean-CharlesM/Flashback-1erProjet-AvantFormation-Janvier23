@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+  }
+
+.logo{
+    height: 120px;
+    margin-left: 15px;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+body{
+    font-family: 'Space Mono', monospace;    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    font-size: 1.1em;
+}
+
+.onglet{
+    display: flex;
+    gap: 90px;
+    margin-right: 25px;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+.photo{
+    min-height: 450px; 
+    margin: none;
+    background: url(../pictures/tea1.jpg);
+    opacity: 0.87;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border-top: 1px solid gray;
+    box-shadow: 0px 0px 3px 0px;
+}
+
+em{
+    color: #FFD700;
+}
+
+h1{
+    font-family: 'Space Mono', monospace;    
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 0px 0px 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    min-width: 65%;
+
+}
+
+th{
+    padding: 14px;
+}
+
+td{
+    border: 1px solid rgb(157, 157, 157);
+    text-align: center;
+    padding: 20px;
+}
+
+.produits img{
+    height: 200px;
+}
+
+.produits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.diversthe td{
+    border: none;
+    font-style: italic;
+}
+
+.safetea{
+    width: 100px;
+    position: absolute;
+    position: fixed;
+    top : 600px ;
+    left: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+.order{
+    text-align: justify;
+    font-family: 'Space Mono', monospace ;
+    margin: 90px;
+}
+
+.formulaire{
+    min-height: 100px;
+}
+
+form{
+    text-align: center;
+}
+
+#submit{
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reseaux{
+    margin-right: 30px;
+    gap: 400px;
+    
+}
+
+.logo2{
+    width: 50px;
+    margin-left: 30px ;
+}
+
+.safetea2{
+    width: 80px;
+}

@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+  }
+
+.logo{
+    height: 120px;
+    margin-left: 15px;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+body{
+    font-family: 'Space Mono', monospace;    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    font-size: 1.1em;
+}
+
+.onglet{
+    display: flex;
+    gap: 90px;
+    margin-right: 25px;
+    
+}
+
+.photo{
+    min-height: 450px; 
+    margin: none;
+    background: url(../pictures/sencha2.jpg);
+    opacity: 0.87;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+    border-top: 1px solid gray;
+    box-shadow: 0px 0px 3px 0px;
+}
+
+em{
+    color: #FFD700;
+}
+
+h1{
+    font-family: 'Space Mono', monospace;    
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 0px 0px 1px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.partie1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+.description{
+    text-align: justify;
+    font-family: 'Space Mono', monospace ;
+    margin: 50px;
+}
+
+.cheery{
+    height: 600px;
+    display: block;
+    margin: auto;
+}
+
+.back{
+    height: 70px;
+    display: block;
+    margin: auto;
+}
+
+footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reseaux{
+    margin-right: 30px;
+    gap: 400px;
+    
+}
+
+.logo2{
+    width: 50px;
+    margin-left: 30px ;
+}
+.safetea2{
+    width: 80px;
+}
