@@ -2,4 +2,4 @@
 
 Voici mon 1er projet personnel crée avant le début la formation avec uniquement du HTML/CSS.
 Maquette réalisée par mes soins via Figma.
-Ce projet m'a permis de faire le points sur mes compétences initiales avant le début de la formations.
+Ce projet m'a permis de faire le points sur mes compétences initiales avant le début de la formation.
